@@ -20,4 +20,6 @@ ax.tick_params(axis="both", which="major", labelsize=14)
 # x-axis runs from 0 to 1100 & the y-axis runs from 0 to 1,100,000
 ax.axis([0, 1100, 0, 1100000])
 
-plt.show()
+# plt.show()
+plt.savefig('scatter_squares.png')
+# plt.savefig('scatter_squares_tight.png', bbox_inches='tight')
